@@ -1,0 +1,145 @@
+package_name,description,screening_passed,package_url,academic_field,search_string_used,screening_notes
+alm,R interface to Lagotto for Altmetric scores,FALSE,https://cran.r-project.org/package=alm,Bibliometrics,ROpenSci,Not on CRAN - deprecated by ROpenSci
+ART,Implementation of the Aligned Rank Transform technique for factorial analysis,TRUE,https://cran.r-project.org/package=ART,NA,,
+aRxiv,R interface to arXiv API,FALSE,https://github.com/ropensci/aRxiv,NA,ROpenSci,Called by package 'fulltext'
+bamdit,Bayesian meta-analysis of diagnostic test data,TRUE,https://cran.r-project.org/package=bamdit,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+base,The R base package,FALSE,https://stat.ethz.ch/R-manual/R-devel/library/base/html/00Index.html,NA,None - located during hackathon,"Ships with R anyway; no need to mention this except as a dependency, because R users will already have it"
+biblioformat,reformat plain text bibliographies,TRUE,https://github.com/Pakillo/biblioformat,NA,Twitter recommendation,
+bibliometrix,Comprehensive science mapping analysis,TRUE,https://cran.r-project.org/package=bibliometrix,Bibliometrics,Twitter recommendation,
+bibtex,Import data from .bib files,TRUE,https://cran.r-project.org/package=bibtex,NA,"""bibliography R""",
+binomen,Taxonomic data storage in R,TRUE,https://cran.r-project.org/package=binomen,Ecology & Evolution,ROpenSci,
+bmc,R interface to BMC API,FALSE,https://github.com/ropensci/bmc,NA,ROpenSci,Called by package 'fulltext'
+brms,Bayesian regression modelling using Stan,TRUE,https://cran.r-project.org/package=brms,NA,Twitter recommendation,
+bspmma,Bayesian semiparametric models for meta-analysis,TRUE,https://cran.r-project.org/package=bspmma,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+CAMAN,Finite-mixture models and MA tools,TRUE,https://cran.r-project.org/package=CAMAN,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+cld2,R Wrapper for Google's Compact Language Detector 2,TRUE,https://cran.r-project.org/package=cld2,NLP,ROpenSci,"Note - does not detect latin, so not useful for taxonomy; but can be useful for detecting other languages in e.g. abstracts"
+compute.es,"Functions for calculating the most widely used effect sizes (ES), variances, confidence intervals and p-values. ",TRUE,https://cran.r-project.org/package=compute.es,NA,,"Uses recommended formulas from The Handbook of Research Synthesis and Meta-Analysis (Cooper, Hedges, & Valentine, 2009)."
+CopulaREMADA,Copula mixed effect models for bivariate and trivariate meta-analysis of diagnostic test accuracy studies,TRUE,https://cran.r-project.org/package=CopulaREMADA,Health & Medicine,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+crminer,Crossref full text mining,FALSE,https://cran.r-project.org/package=crminer,NA,ROpenSci,Called by package 'fulltext'
+CRTSize,Sample size estimation functions for cluster randomized trials,TRUE,https://cran.r-project.org/package=CRTSize,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+DiagrammeR,Graph/Network Visualization,FALSE,https://cran.r-project.org/package=DiagrammeR,NA,None - located during hackathon,"Useful general package, but not ES-specific"
+digitize,Use Data from Published Plots in R,TRUE,https://cran.r-project.org/package=digitize,NA,None - located during hackathon,
+digitizeR,R package to extract data from plots and other images.,TRUE,https://github.com/ankitrohatgi/digitizeR,NA,None - located during hackathon,
+dissemr,dissem.in client - detect open-access papers,TRUE,https://github.com/ropenscilabs/dissemr,NA,ROpenSci,appears to support full text articles
+dosresmeta,Multivariate dose-response MA,TRUE,https://cran.r-project.org/package=doesresmeta,Health & Medicine,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+EasyStrata,Evaluation of stratified genome-wide assocation MA results,FALSE,https://cran.r-project.org/package=EasyStrata,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",Removed from CRAN
+ecoreg,Ecological regression using aggregate and individual data,TRUE,https://cran.r-project.org/package=ecoreg,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+effsize,Functions to compute the standardized effect sizes for experiments,TRUE,https://cran.r-project.org/package=effsize,NA,,
+epiR,Tools for the analysis of epidemiological data,TRUE,https://cran.r-project.org/package=epiR,Health & Medicine,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+esc,Implementation of the web-based 'Practical Meta-Analysis Effect Size Calculator' in R,TRUE,https://cran.r-project.org/package=esc,NA,,
+exactmeta,Exact fixed effect meta-analysis,TRUE,https://cran.r-project.org/package=exactmeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+extfunnel,Funnel plot augmentations,TRUE,https://cran.r-project.org/package=extfunnel,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+extractr,Extract text from pdfs using various web and local APIs,TRUE,https://github.com/ropensci/extractr,NA,None - located during hackathon,
+forestplot,Advanced forest plots using 'grid',TRUE,https://cran.r-project.org/package=forestplot,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+fulltext,Full Text of 'Scholarly' Articles Across Many Data Sources,TRUE,https://cran.r-project.org/package=fulltext,NA,"located during hackathon, ROpenSci",
+gap,Genetic analysis package,TRUE,https://cran.r-project.org/package=gap,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+gemtc,Network MA using Bayesian methods,TRUE,https://cran.r-project.org/package=gemtc,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+GeneMeta,MA for high-throughput experiments,TRUE,https://www.bioconductor.org/packages/GeneMeta/,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+geolocart,Geoparse scientific articles,FALSE,https://github.com/ropenscilabs/geolocart,Spatial,ROpenSci,"Package appears relevant, but does not load and appears abandoned"
+geonames,R interface to GeoNames,TRUE,https://cran.r-project.org/package=geonames,Spatial,ROpenSci,
+geoparser,Interface to geoparser.io API,TRUE,https://cran.r-project.org/package=geoparser,Spatial,ROpenSci,
+gmeta,NMA via a unified framework under confidence distribution,TRUE,https://cran.r-project.org/package=gmeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+googleLanguageR,Interface to Google's NLP API,TRUE,https://cran.r-project.org/package=googleLanguageR,NLP,ROpenSci,
+HSROC,Meta-analysis of diagnostic test accurracy when reference test is imperfect,FALSE,https://cran.r-project.org/package=HSROC,Health & Medicine,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",Removed from CRAN
+ipdmeta,Tools for subgroup analyses with multiple trial data using aggregate statistics,TRUE,https://cran.r-project.org/package=ipdmeta,Health & Medicine,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+irr,Various Coefficients of Interrater Reliability and Agreement,TRUE,https://cran.r-project.org/package=irr,NA,None - located during hackathon,
+jaod,Directory of Open Access Journals API,TRUE,https://cran.r-project.org/package=jaod,NA,ROpenSci,
+jstor,R interface to JSTOR DfR,TRUE,https://github.com/ropensci/jstor,NA,,
+knitcitations,render bibliographies in markdown docs,TRUE,https://cran.r-project.org/package=knitcitations,NA,"""bibliography R""",
+MAc,MA with correlations,TRUE,https://cran.r-project.org/package=MAc,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+MAd,MA with mean differences,TRUE,https://cran.r-project.org/package=MAd,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+mada,Meta-analysis of diagnostic accuracy,TRUE,https://cran.r-project.org/package=mada,Health & Medicine,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+MADAM,Basic methods for MA,FALSE,https://github.com/cran/MADAM,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",Removed from CRAN
+MAMA,MA of micro-array data,FALSE,https://cran.r-project.org/package=MAMA,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",Removed from CRAN
+MAVIS,Meta-analysis via Shiny,TRUE,https://cran.r-project.org/package=MAVIS,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+MCMCglmm,Generalized linear mixed models by MCMC,TRUE,https://cran.r-project.org/package=MCMCglmm,NA,Twitter recommendation,
+meta,General MA package,TRUE,https://cran.r-project.org/package=meta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metaArray,Integration of microarray data for MA,TRUE,https://bioconductor.org/packages/metaArray/,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metabefor,Build coding forms for extracting data during SR or meta-analysis,NA,https://github.com/Matherion/metabefor/tree/master/R,NA,Twitter recommendation,In development
+MetABEL,MA of genome-wide SNP association results,TRUE,https://cran.r-project.org/package=MetABEL,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metacor,MA of correlation coefficients,TRUE,https://cran.r-project.org/package=metacor,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+MetaDE,Microarray MA for differentially expressed gene detection ,FALSE,https://github.com/cran/MetaDE,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",Removed from CRAN
+metaDigitise,Digitising functions in R for extracting data and summary statistics from figures in primary research papers,TRUE,https://github.com/daniel1noble/metaDigitise,NA,None - located during hackathon,
+metafor,Meta-Analysis Package for R,TRUE,https://cran.r-project.org/package=metafor,NA,None - located during hackathon,
+metagear,Comprehensive Research Synthesis Tools for Systematic Reviews and Meta-Analysis,TRUE,https://cran.r-project.org/package=metagear,NA,None - located during hackathon,requires external dependencies
+metagen,Inference in MA and MR,TRUE,https://cran.r-project.org/package=metagen,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metaLik,Likelihood inference in meta-analysis and meta-regression models,TRUE,https://cran.r-project.org/package=metaLik,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metaMA,MA for micro-array data,TRUE,https://cran.r-project.org/package=metaMA,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metamisc,Diagnostic and prognostic meta-analysis,TRUE,https://cran.r-project.org/package=metamisc,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metap,Meta-analysis of significance values,TRUE,https://cran.r-project.org/package=metap,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+MetaPCA,MA in the dimension reduction of genomic data,TRUE,https://cran.r-project.org/package=MetaPCA,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metaplot,Meta-analysis forest plots,TRUE,https://cran.r-project.org/package=metaplot,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metaplus,Robust MA and MR,TRUE,https://cran.r-project.org/package=metaplus,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+MetaQC,Quality control and inclusion/exclusion criteria for geonomic meta-analysis,TRUE,https://cran.r-project.org/package=MetaQC,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metaRNASeq,MA for RNA sequence data,TRUE,https://cran.r-project.org/package=metaRNASeq,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metaSEM,Conduct univariate or multivariate MA via structural equation modelling,TRUE,https://cran.r-project.org/package=metaSEM,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metasens,Advanced statistical methods to model and adjust for bias in meta-analysis,TRUE,https://cran.r-project.org/package=metasens,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+MetaSKAT,MA for SNP-set (sequence) Kernel Association Test,TRUE,https://cran.r-project.org/package=MetaSKAT,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+metatest,Fit and test meta-regression models,TRUE,https://cran.r-project.org/package=metatest,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+Metatron,Meta-analysis for classification data and correction to imperfect reference,TRUE,https://cran.r-project.org/package=Metatron,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+microdemic,Interface to Microsoft Academic API,FALSE,https://cran.r-project.org/package=microdemic,NA,ROpenSci,Called by package 'fulltext'
+mmeta,Multivariate MA,TRUE,https://cran.r-project.org/package=mmeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+monkeylearn,Interface to monkeylearn API for NLP & feature extraction,TRUE,https://cran.r-project.org/package=monkeylearn,NLP,ROpenSci,
+MultiMeta,MA of multivariate genome-wide association studies,TRUE,https://cran.r-project.org/package=MultiMeta,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+mvmeta,Multivariate and univariate MA and meta-regression,TRUE,https://cran.r-project.org/package=mvmeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+mvtmeta,Multivariate MA,TRUE,https://cran.r-project.org/package=mvtmeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+netmeta,Network MA using frequentist methods,TRUE,https://cran.r-project.org/package=netmeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+opencage,Interface to OpenCade API for forward and backward geolocation,TRUE,https://cran.r-project.org/package=opencage,Spatial,ROpenSci,
+Ordam,"Computes ordinal, statistics and effect sizes as an alternative to mean comparison",FALSE,NA,NA,,Unable to locate
+originr,"Species origin data (i.e. nativeness, invasiveness)",TRUE,https://cran.r-project.org/package=originr,Ecology & Evolution,ROpenSci,
+parseids,Parse DOIs,TRUE,https://github.com/ropenscilabs/parseids,NA,ROpenSci,
+pcnetmeta,Patient-centered network meta-analysis,TRUE,https://cran.r-project.org/package=pcnetmeta,Health & Medicine,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+pdfsearch,Keyword search of PDF files,TRUE,https://cran.r-project.org/package=pdfsearch,NA,Twitter recommendation,
+pdftools,"Text Extraction, Rendering and Converting of PDF Documents",TRUE,https://cran.r-project.org/package=pdftools,NA,"located during hackathon, ROpenSci",
+powerAnalysis,Basic functions for power analysis and effect size calculation.,TRUE,https://cran.r-project.org/package=powerAnalysis,NA,,
+psych,"Procedures for Psychological, Psychometric, and Personality Research",TRUE,https://cran.r-project.org/package=psych,Psychology,None - located during hackathon,
+psychmeta,Psychometric meta-analysis toolkit,TRUE,https://cran.r-project.org/web/packages/psychmeta/index.html,Psychology,Twitter recommendation,"Corrections for reliability, range restriction, other statististical artifacts, Hunter-Schmidt meta-analysis"
+psychometric,Applied psychometric theory,TRUE,https://cran.r-project.org/package=psychometric,Psychology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+PubBias,Simulations to investigate publication bias,TRUE,https://cran.r-project.org/package=PubBias,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+pubchunks,get parts of articles in XML format,TRUE,https://github.com/ropensci/pubchunks,NA,ROpenSci,
+pwr,Power analysis functions along the lines of Cohen (1988).,TRUE,https://cran.r-project.org/package=pwr,NA,,
+R2jags,Using R to Run 'JAGS',FALSE,https://cran.r-project.org/package=R2jags,NA,None - located during hackathon,General-purpose rather than ES-specific
+rAltmetric,R interface to Altmetric,TRUE,https://cran.r-project.org/package=rAltmetric,Bibliometrics,ROpenSci,
+rbace,R Interface to Bielefeld Academic Search Engine,TRUE,https://github.com/ropensci/rbace,NA,ROpenSci,
+rbhl,R interface to Biodiversity Heritage Library API,TRUE,https://cran.r-project.org/package=rbhl,Ecology & Evolution,ROpenSci,
+rcoreoa,R interface to CORE API,TRUE,https://cran.r-project.org/package=rcoreoa,NA,ROpenSci,
+rdpla,R interface to Digital Public Library of America,TRUE,https://cran.r-project.org/package=rdpla,NA,ROpenSci,
+readxl,Import from excel files,TRUE,https://cran.r-project.org/package=readxl,NA,,"General use, but simple functionality, so easy to include"
+RefManageR,Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management,TRUE,https://cran.r-project.org/package=RefManageR,NA,None - located during hackathon,
+refnet2,update to refnet package for processing Web of Science Records,TRUE,https://github.com/embruna/refnet2,Bibliometrics,None - located during hackathon,Not downloadable as an R package yet
+rentrez,R interface to NCBI Eutils API,FALSE,https://cran.r-project.org/package=rentrez,Life Sciences,ROpenSci,Called by package 'fulltext'
+revtools,Tools to Support Evidence Synthesis,TRUE,https://cran.r-project.org/package=revtools,NA,None - located during hackathon,
+rftdoi,R interface to ftdoi.org,TRUE,https://github.com/ropenscilabs/rftdoi,NA,ROpenSci,Maps structure of URL on pulisher websites to allow access for web crawlers. 
+RJSONIO,R JSON interface - background to RefManageR::ReadCrossRef,FALSE,https://CRAN.R-project.org/package=RJSONIO,NA,in documentation for 'RefManageR',Only relevant as a dependency; unlikely to be called directly
+RKEA,An R interface to KEA (Version 5.0).,TRUE,https://cran.r-project.org/package=RKEA,NLP,None - located during hackathon,requires rJava
+rmarkdown,Convert R Markdown documents into a variety of formats.,FALSE,https://cran.r-project.org/package=rmarkdown,NA,None - located during hackathon,Excluded as a very general package - not specific to ES
+rmeta,Meta-analysis,TRUE,https://cran.r-project.org/package=rmeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+roadoi,R interface to unpaywall API,TRUE,https://github.com/ropensci/roadoi,NA,ROpenSci,
+robumeta,Robust variance meta-regression,TRUE,https://cran.r-project.org/package=robumeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+rorcid,R interface to ORCID API,TRUE,https://cran.r-project.org/package=rorcid,Bibliometrics,ROpenSci,
+rplos,R interface to the PLOS API,FALSE,https://cran.r-project.org/package=rplos,NA,ROpenSci,Called by package 'fulltext'
+rstan,Interface to Stan models (Bayesian),FALSE,https://cran.r-project.org/package=rstan,NA,Twitter recommendation,General-purpose rather than ES-specific
+SAMURAI,Sensitivity analysis of a meta-analysis with unpublished but registered analytical investigations,TRUE,https://cran.r-project.org/package=SAMURAI,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+scholar,interface to Google Scholar,TRUE,https://cran.r-project.org/package=scholar,NA,in documentation for 'RefManageR',
+SCMA,Single-case meta-analysis,TRUE,https://cran.r-project.org/package=SCMA,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+selectMeta,Estimation of weight functions in meta-analysis,TRUE,https://cran.r-project.org/package=selectMeta,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+selfea,Functions using Cohen’s effect sizes are provided for reliable feature selection in biology data analysis,TRUE,https://cran.r-project.org/package=selfea,NA,,
+seqMeta,MA of region-based tests of rare DNA variants,TRUE,https://cran.r-project.org/package=seqMeta,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+shiny,Web Application Framework for R,FALSE,https://cran.r-project.org/package=shiny,NA,None - located during hackathon,"Individual shiny apps are useful for ES, but as a whole it is too general - other comparable visualisation tools are not included (e.g. ggplot2, plotly)"
+sjstats,Functions for common statistical computations,TRUE,https://cran.r-project.org/package=sjstats,NA,,
+skatMeta,Efficient MA for the SKAT test,FALSE,https://cran.r-project.org/package=skatMeta,Molecular Biology,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",Removed from CRAN
+tabulizer,Extract tables from PDFs,TRUE,https://cran.r-project.org/package=tabulizer,NA,ROpenSci,requires rJava
+taxize,Taxonomic data retrieval,TRUE,https://cran.r-project.org/package=taxize,Ecology & Evolution,ROpenSci,
+tesseract,Extract images from text,TRUE,https://cran.r-project.org/package=tesseract,NA,ROpenSci,
+textrank,Summarize Text by Ranking Sentences and Finding Keywords,TRUE,https://cran.r-project.org/package=textrank,NLP,None - located during hackathon,
+textreuse,Detect similarity among documents,TRUE,https://cran.r-project.org/package=textreuse,NLP,ROpenSci,useful for de-duplication?
+tif,validate text interchange formats,TRUE,https://github.com/ropensci/tif,NLP,ROpenSci,install fails - probably as package is in early development
+tm,A framework for text mining applications within R.,FALSE,https://cran.r-project.org/package=tm,NLP,None - located during hackathon,Too general to be considered ES
+tokenizers,Tokenizers for text mining tasks,TRUE,https://cran.r-project.org/package=tokenizers,NLP,ROpenSci,
+topicmodels,Provides an interface to the C code for Latent Dirichlet Allocation (LDA) models and Correlated Topics Models (CTM) by David M. Blei and co-authors,TRUE,https://cran.r-project.org/package=topicmodels,NLP,None - located during hackathon,
+udpipe,"Tokenization, Parts of Speech Tagging, Lemmatization and Dependency Parsing with the 'UDPipe' 'NLP' Toolkit",TRUE,https://cran.r-project.org/package=udpipe,NLP,None - located during hackathon,
+unrtf,Extract text from rich text files (.rtf),TRUE,https://cran.r-project.org/package=unrtf,NA,ROpenSci,
+utils,Another base package,FALSE,https://cran.r-project.org/package=R.utils,NA,"""bibliography R""","Ships with R anyway; no need to mention this except as a dependency, because R users will already have it"
+weightr,The Vevea and Hedges weight-function model for publication bias,TRUE,https://cran.r-project.org/package=weightr,NA,"from Polanin, Hennessy & Tanner-Smith (2017) A review of Meta-analysis packages in R. Journal of Educational and Behavioural Statistics 42(2): 206-242",
+writexl,Save to excel files,TRUE,https://cran.r-project.org/package=writexl,NA,ROpenSci,"General use, but simple functionality, so easy to include"
+xmeta,Multivariate meta-analysis,TRUE,https://cran.r-project.org/package=xmeta,NA,,
