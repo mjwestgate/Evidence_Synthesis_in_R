@@ -59,5 +59,8 @@ invisible(lapply(missing_packages,
 
 
 # re-run check to see whether all packages were installed
+installed_packages <- as.character(
+  installed.packages()[,"Package"]
+)
 packages$installed <- packages$package_name %in% installed_packages
 missing_packages <- packages$package_name[!packages$installed]
