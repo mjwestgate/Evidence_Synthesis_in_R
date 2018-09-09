@@ -1,0 +1,42 @@
+---
+title: "get function documentation text for analysis"
+author: "Charles T. Gray"
+date: "10/09/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r eval=TRUE}
+# from conversation with Jenny Bryan on slack
+(x <- list.files(
+  system.file("help", package = "usethis"),
+  pattern = "[.]rdb$",
+  full.names = TRUE
+))
+#> [1] "/Users/jenny/resources/R/library/usethis/help/usethis.rdb"
+x <- tools:::fetchRdDB(tools::file_path_sans_ext(x))
+str(x[["create_package"]], max.level = 1, list.len = 3)
+#> List of 7
+```
+
+```{r}
+# turn this into a function
+
+get_pkg_docs <- function(pkg_string = "glue") {
+  locate_pkg_docs <- function(pkg_string) {
+    list.files(
+      system.file("help", package = pkg_string),
+      pattern = "[.]rdb$",
+      full.names = TRUE
+    )
+  }
+  
+  tools:::fetchRdDB(tools::file_path_sans_ext(locate_pkg_docs(pkg_string)))
+}
+
+```
+
