@@ -5,14 +5,14 @@ help_file_to_list <- function(x){
   ))
 
   # remove extra content
-  exclude_text <- c("\n", "\t", "{", "}",
-    "\\code", "\\item", "\\link"
-  )
+  exclude_text <- c("\n", "\t", "{", "}")
   keep_rows <- which(!(result %in% exclude_text))
   result <- result[keep_rows]
 
-  # id tags
-  tags_check <- grepl("^\\\\", result)
+  # id tags, using those given in:
+  # https://cran.r-project.org/doc/manuals/R-exts.html#Documenting-functions
+  # search for these in your script
+  tags_check <- result %in% paste0("\\", help_tags())
   tag_values <- cumsum(tags_check)
   entry_list <- split(result, tag_values)
   entry_list <- lapply(entry_list, function(a){
@@ -39,9 +39,8 @@ help_file_to_list <- function(x){
   colnames(entry_dframe) <- c("tag", "text")
 
   # clean up text
-  entry_dframe$tag <- sub("^\\\\", "", entry_dframe$tag)
-  entry_dframe$text <- gsub("\\n", "", entry_dframe$text)
-  entry_dframe$text <- gsub("\\s+", " ", entry_dframe$text)
+  entry_dframe$tag <- sub("^\\\\", "", entry_dframe$tag) # leading slahes from tags
+  entry_dframe$text <- clean_help_text(entry_dframe$text)
 
   # split by tag, collapse with "AND"
   # prevents multiple versions of same tag
@@ -60,4 +59,22 @@ help_file_to_list <- function(x){
   return(
     final_list[unique(entry_dframe$tag)] # in correct order
   )
+}
+
+
+help_tags <- function(){
+  c("name", "alias", "title", "description",
+    "usage", "arguments", "details", "value",
+    "references", "note", "author",
+    "seealso", "examples", "keyword"
+  )
+}
+
+clean_help_text <- function(x){
+  x <- gsub("\\\\[[:alnum:]]+", "", x) # tags
+  x <- gsub("\\n|\\t|\\{|\\}", "", x) # tabs, newline, brackets
+  x <- gsub("\\s+", " ", x) # >1 space
+  x <- gsub("^\\s|\\s$", "", x) # leading or trailing whitespace
+  x <- gsub("\\s(?=[[:punct:]])", "", x, perl = TRUE) # spaces before punctuation
+  return(x)
 }
