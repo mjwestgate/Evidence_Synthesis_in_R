@@ -1,2 +1,2 @@
-# Evidence_Synthesis_in_R
-Working repo for the 'Evidence Synthesis in R' project, focussed on mapping the packages and functions available in R for systematic reviews, systematic maps, and meta-analyses.
+# starchart
+Early-stage package for mapping evidence synthesis in R, and presenting those maps for broader use. Intended to inform development of the 'metaverse' package. Aim is to map the packages and functions available in R for systematic reviews, systematic maps, and meta-analyses.

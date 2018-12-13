@@ -1,0 +1,10 @@
+Package: starchart
+Version: 0.0.1
+Title: Mapping Evidence Synthesis Packages
+Author: Martin J. Westgate <martinjwestgate@gmail.com>
+Description: Early-stage package for mapping Evidence Synthesis (ES) packages, and sharing those maps.
+Depends: R (>= 3.5.0)
+Imports: tools, 
+License: GPL-3
+BugReports: https://github.com/mjwestgate/startchart/issues
+LazyData: true
